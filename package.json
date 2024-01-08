@@ -1,28 +1,28 @@
 {
-  "name": "img2terminal",
-  "version": "0.0.4",
-  "type": "module",
-  "scripts": {
-    "format": "bunx @biomejs/biome **/* --write",
-    "lint": "bunx @biomejs/biome lint **/*",
-    "check": "bunx @biomejs/biome check --apply **/*"
-  },
-  "files": ["src"],
-  "bin": {
-    "img2terminal": "src/img2terminal.ts"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.4.1",
-    "@types/bun": "latest",
-    "@types/command-exists": "^1.2.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "commander": "^11.1.0",
-    "jimp": "^0.22.10",
-    "lookpath": "^1.2.2"
-  }
+	"name": "img2terminal",
+	"version": "0.0.5",
+	"type": "module",
+	"scripts": {
+		"format": "bunx @biomejs/biome **/* --write",
+		"lint": "bunx @biomejs/biome lint **/*",
+		"check": "bunx @biomejs/biome check --apply **/*"
+	},
+	"files": ["src"],
+	"bin": {
+		"img2terminal": "src/img2terminal.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
+		"@types/bun": "latest",
+		"@types/command-exists": "^1.2.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"commander": "^11.1.0",
+		"jimp": "^0.22.10",
+		"lookpath": "^1.2.2"
+	}
 }

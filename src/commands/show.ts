@@ -8,7 +8,6 @@ const kittenPath = await lookpath("kitten");
 function show(name: string, options: OptionValues, command: Command) {
 	const filePath = command.args[0];
 	if (kittenPath && !options.kitty) {
-		console.log(options);
 		console.log(
 			"Your terminal supports Kitty Graphics Protocol. In order to use it, run:",
 		);
