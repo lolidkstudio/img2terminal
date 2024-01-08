@@ -15,6 +15,7 @@ program
 program
 	.command("show")
 	.description("Show an image in the terminal")
+	.option("-k, --kitty", "use Kitty Graphics Protocol")
 	.argument(
 		chalk.grey("file"),
 		"file to show in the terminal (allowed filetypes are .bmp, .gif, .jpeg, .png, .tiff)",
